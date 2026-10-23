@@ -153,7 +153,7 @@ struct Hexagon: Shape {
         let center = CGPoint(x: rect.midX, y: rect.midY)
         var path = Path()
         for index in 0..<6 {
-            let angle = (Double(index) * 60 - 90) * .pi / 180
+            let angle = (CGFloat(index) * 60 - 90) * .pi / 180
             let point = CGPoint(x: center.x + radius * cos(angle), y: center.y + radius * sin(angle))
             if index == 0 {
                 path.move(to: point)
