@@ -23,7 +23,7 @@ Requirements: Xcode 16 or newer, iOS 17 or newer on the phone.
 1. Open `Compounder.xcodeproj` in Xcode.
 2. Select the **Compounder** target → **Signing & Capabilities** → choose your **Team**
    (your paid developer account). If Xcode says the bundle ID is taken, change
-   `com.kodkode.Compounder` to something unique, e.g. `com.<yourname>.Compounder`.
+   `com.kodkode.compounder.app` to something unique.
 3. Plug in your iPhone (or pick it over Wi-Fi), select it as the run destination, press **Run** (⌘R).
    The first time, approve the developer on the phone: *Settings → General → VPN & Device Management*.
 

@@ -6,6 +6,8 @@ Read this first. These are standing decisions from the owner — do not ask abou
 - Target platform: **native iPhone app (SwiftUI)**. Not a web app / PWA.
 - The owner **has a Mac with Xcode** and a **paid Apple Developer Program membership ($99/yr)**.
   So: device installs don't expire, TestFlight and App Store distribution are available.
+- Bundle ID: `com.kodkode.compounder.app` (`com.kodkode.Compounder` is taken on Apple's side).
+  Never change it after the first App Store Connect upload.
 - Cloud sessions run on Linux and cannot build iOS. Verify Swift changes through the
   GitHub Actions workflow (`.github/workflows/ci.yml`, macOS runner) instead of asking
   the owner to build.
