@@ -1,0 +1,24 @@
+{
+  "sourceLanguage" : "he",
+  "strings" : {
+    "CFBundleDisplayName" : {
+      "comment" : "App name shown on the Home Screen",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compounder"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compounder"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
